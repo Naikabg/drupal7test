@@ -1,0 +1,31 @@
+; Theme Information
+name = My Theme
+description = My test theme
+package = Core
+version = VERSION
+core = 7.x
+base theme = bartik
+
+; Regions
+regions[header] = Header
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[content_top] = Content Top
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[footer] = Footer
+
+; CSS
+stylesheets[all][] = assets/css/styles.css
+
+; Javascript
+scripts[] = assets/js/theme.js
+
+; Theme Settings
+settings[toggle_slogan] = 1
+
+; Remove unnecessary css files from core
+stylesheets-remove:
+
+; Panels layouts. Our custom layouts in the "layouts" folder.
+plugins[panels][layouts] = layouts
